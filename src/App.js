@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import { Controles } from './components/controles';
+import { Demonstrador } from './components/demonstrador';
+import './index.css';
 
-function App() {
+export const App = () => {
+
+  const initialState = localStorage.getItem("count") || 10
+  let [count, setCount] = useState(initialState)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Demonstrador value={count} />
+      <Controles count={count} setCount={setCount} />
     </div>
   );
-}
 
-export default App;
+}
