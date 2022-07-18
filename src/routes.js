@@ -1,3 +1,4 @@
+import React from 'react';
 import { Route, Routes } from "react-router-dom"
 import { Form } from "./pages/formulario"
 import { KeyList } from "./pages/listagem-chaves"
@@ -8,7 +9,7 @@ export const AppRoutes = () => {
         <Routes>
             <Route path="/" element={<KeyList />} />
             <Route path="/form/:key" element={<Form />} />
-            <Route path="/qrcode" element={<QrCodePage />} />
+            <Route path="/qrcode/:key" element={<QrCodePage />} />
         </Routes>
     )
 }

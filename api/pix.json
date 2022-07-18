@@ -1,0 +1,64 @@
+{
+    "pixkey": [
+        {
+            "conta": "10500",
+            "agencia": "0909",
+            "chaves": [
+                {
+                    "value": "5551992472228"
+                },
+                {
+                    "value": "jdantas@gmail.com"
+                },
+                {
+                    "value": "11122255500"
+                }
+            ]
+        },
+        {
+            "conta": "10505",
+            "agencia": "0909",
+            "chaves": [
+                {
+                    "value": "5551992472228"
+                },
+                {
+                    "value": "jdantas@gmail.com"
+                },
+                {
+                    "value": "11122255500"
+                }
+            ]
+        },
+        {
+            "conta": "45500",
+            "agencia": "0909",
+            "chaves": [
+                {
+                    "value": "5551992472228"
+                },
+                {
+                    "value": "jdantas@gmail.com"
+                },
+                {
+                    "value": "11122255500"
+                }
+            ]
+        },
+        {
+            "conta": "45500",
+            "agencia": "1989",
+            "chaves": [
+                {
+                    "value": "5551992472228"
+                },
+                {
+                    "value": "fulano@gmail.com"
+                },
+                {
+                    "value": "99900099933"
+                }
+            ]
+        }
+    ]
+}
